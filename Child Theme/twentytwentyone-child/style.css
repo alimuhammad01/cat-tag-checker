@@ -1,0 +1,23 @@
+/*
+Theme Name: Twenty Twenty-One Child
+Author: Ali Muhammad
+Template: twentytwentyone
+Version: 1.4
+Text Domain: twentytwentyone
+*/
+
+*, body{
+	font-family: 'Oswald', sans-serif;
+}
+body.single-post{
+	background-color: #F0F8FF !important;
+}
+h1{
+	font-size: 48px !important;
+}
+header h1.entry-title, h1,h2,h3,h4,h5,h6{
+	font-family: 'Palette Mosaic', cursive;
+}
+.post_footer_title, h1{
+	text-align: center;
+}
