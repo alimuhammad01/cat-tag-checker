@@ -41,7 +41,7 @@ public function ctc_append_cat_img( $content ){ //Check if post has thumbnail, o
 
 public function ctc_extend_title_with_date( $title, $id ){ //Change the POST title format on the basis of Tag
 
-        if( get_post_type( $id ) == 'post' ){
+        if( get_post_type( $id ) == 'post' && !is_admin() ){
 
             $tag_terms = wp_get_post_terms( $id, 'post_tag' );
             $cat_terms = array_column( $tag_terms, 'name');
